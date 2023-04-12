@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eeeeee;
+    max-width: 100%;
+    overflow-y:visible;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+
+p{
+    line-height: 40px;
+}
+
+h4{
+
+    font-weight: bold;
+    color: black;
+
+}
+
+p{
+    color: black;
+
+}
+
+/* Navbar */
+
+.nav{
+
+    position:relative;
+    z-index: 1;
+    background-image: linear-gradient(to left,rgb(15, 76, 117), rgb(50, 130, 184));
+   
+}
+
+.nav-link{
+    margin-right: 10px;
+}
+
+.judul{
+    margin-right: 30px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6 );
+    color: white;
+
+}
+
+.konten{
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6 );
+
+}
+
+/* Jumbotron */
+
+header{
+
+    margin-top: -100px;
+    background-image: url(./img/gym.jpg);
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    display: flex;
+    position: relative;
+
+}
+header::after{
+    
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,.3));
+}
+
+.jumbo{
+    text-align: center;
+    color: white;
+    margin: auto;
+    z-index: 1;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6 );
+    animation: text 1s ;
+    font-size: 50px;
+
+}
+
+.btn{
+
+    margin: 5px;
+}
+
+
+/* Content */
+
+.tantang{
+    color:white;
+}
+
+.thumb{
+    background-image: url(./img/member1.jpg);
+    height: 400px;
+    max-width: 100%;
+    background-size: cover;
+    border-radius: 20px;
+    color: black;
+
+}
+
+.harga{
+    padding-top: 20%;
+}
+
+.gapake{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 100px;
+    color: #1F4068;
+
+}
+
+.mulai{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 100px;
+    color: #3282B8;
+    margin-top: -30px;
+
+}
+
+.member{
+    background-color:#0F4C75;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 20px;
+}
+
+.siap{
+    padding-top: 10%;
+}
+
+
+
+.judul-content{
+
+    padding-top: 200px;
+    color:#1F4068;
+    margin: auto;
+    text-align: center;
+    animation: text 1s;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+
+
+.kolom-gambar-bisep{
+    background-image: url(./img/bisep.jpg);
+    height: 70vh;
+    max-width: 100%;
+    background-size: cover;
+    border-radius: 100px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.kolom-gambar-trisep{
+    background-image: url(./img/tricep.jpeg);
+    height:70vh;
+    background-size: cover;
+    border-radius: 100px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.kolom-gambar-dada{
+    background-image: url(./img/chest.jpg);
+    height:70vh;
+    background-size: cover;
+    border-radius: 100px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.kolom-gambar-fore{
+    background-image: url(./img/fore.jpg);
+    height:70vh;
+    background-size: cover;
+    border-radius: 100px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.container-gambar{
+    margin-top: 100px;
+}
+
+.paraf{
+    justify-content: center;
+}
+
+.label{
+    color: black;
+}
+
+
+/* Member Page */
+
+.member-page{
+    color: white;
+}
+
+.harga-member{
+    padding-top: 9%;
+}
+
+.member-harga{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.box{
+    display: flex;
+    margin-top: 100px;
+}
+
+.box1{
+    width: 400px;
+    height: 450px;
+    background-color:white;
+    border-radius: 20px;
+}
+
+.box2{
+    margin-left: 50px;
+   width: 400px;
+    height: 450px;
+    background-color:white;
+    border-radius: 20px;
+
+}
+
+.box3{
+    margin-left: 50px;
+    width: 400px;
+    height: 450px;
+    background-color:white;
+    border-radius: 20px;
+
+}
+
+
+header1{
+
+    margin-top: -100px;
+    background-image: url(./img/member.jpg);
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+    display: flex;
+    position: relative;
+
+}
+header1::after{
+    
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,.3));
+}
+
+
+.waktu-bulan{
+    color: #3282B8;
+    font-weight: bold;
+
+}
+
+.bulan{
+    font-size: 20px;
+}
+
+li{
+    padding:10px;
+    color: black;
+    
+    
+}
+
+/* Data */
+
+.pelanggan{
+    margin-top: 50px;
+}
+
+.data{
+    color: #0F4C75;
+    padding-bottom: 20px;
+}
+
+/* Footer */
+
+.footer{
+    
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+   
+}
+
+.copy{
+    color: white;
+    
+}
+
+
+
+
+@keyframes text {
+
+    0%{
+        scale: 0;
+    }
+    
+    100%{
+        scale: 1;
+    }
+    
+}
+
+
